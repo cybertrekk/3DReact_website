@@ -24,7 +24,7 @@ const Navbar = () => {
            }}
          >
            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-           <p className="text-white text-[18px] font-bold cursor-pointer"> IAMVISION <span className="sm:block hidden"></span></p>
+           <p className="text-white text-[18px] font-bold cursor-pointer"> CYBERTREK <span className="sm:block hidden"></span></p>
          </Link>
          <ul className="list-none hidden sm:flex flex-row gap-10">
            {navLinks.map((Link) => (
@@ -65,7 +65,7 @@ const Navbar = () => {
           </ul>
             </div>
           </div>
-         <p className="text-red-500">see it before you see it . . .</p>
+         <p className="text-red-500">everything is possible . . .</p>
       </div>
     </nav>
   )

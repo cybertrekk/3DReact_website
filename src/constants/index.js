@@ -16,6 +16,8 @@ import {
     splunk,
     terraform,
     kibana,
+    vizion,
+    jchord,
     tpi,
     adweek,
     dominion,
@@ -135,9 +137,9 @@ import {
   ]
   const experiences = [
     {
-      title: "Sr DevOps Engineer",
-      company_name: "Adweek",
-      icon: adweek,
+      title: "John Mensah",
+      company_name: "Cybertrek",
+      icon: jchord,
       iconBg: "#383E56",
       date: "June 2022 - April 2023",
       points: [
@@ -148,9 +150,9 @@ import {
       ],
     },
     {
-      title: "Cloud Infrastructue Engineer",
-      company_name: "Dominion Systems",
-      icon: dominion,
+      title: "Sahr John",
+      company_name: "Cybertrek",
+      icon: vizion,
       iconBg: "#E6DEDD",
       date: "Jan 2017 - Feb 2022",
       points: [
@@ -158,32 +160,6 @@ import {
         "- Designed and built Kubernetes clusters with auto scaling, load balancing, and routing capabilities, increasing system reliability and resilience on a 24/7 basis.",
         "- Effectively secured secret management, utilizing HashiCorp Vault, Ansible Vault, AWS Secret Manager, and Azure Key Vault, increasing overall security and compliance.",
         "- Integrated and automated unit testing tools within SCM and CI/CD to maintain code quality, version control and provide constructive feedback to team.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "eCommerce_Websites",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "June 2017 - Present",
-      points: [
-        "- Developing and maintaining web applications using React.js and other related technologies.",
-        "- Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "- Implementing responsive design and ensuring cross-browser compatibility.",
-        "- Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Integration Engineer",
-      company_name: "TpISENT (SL) Limited",
-      icon: tpi,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "- Written pre-commit, post-commit, post-receive hooks and responsible for merging, tagging and conflict resolution in SCM tool.",
-        "- Setting up Jira as defect tracking system and configured various workflows, customization and plug-ins for the Jira/issue tracker.",
-        "- Managed varied subsystems of software and their integrations with company's products.",
-        "- Harnessed custom load testing scenarios and validation procedures to improve system function and ensure maximum scalability.",
       ],
     },
   ];

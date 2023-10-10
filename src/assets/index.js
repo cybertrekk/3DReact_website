@@ -47,6 +47,8 @@ import wordpress from "./tech/wordpress.png";
 
 
 
+import vizion from "./company/vizion.png";
+import jchord from "./company/jchord.png";
 import dominion from "./company/dominion.png";
 import adweek from "./company/adweek.png";
 import tpi from "./company/tpi.png";
@@ -113,6 +115,8 @@ export {
   vault,
   wordpress,
 
+  jchord,
+  vizion,
   adweek,
   dominion,
   tpi,
